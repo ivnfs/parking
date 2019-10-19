@@ -14,6 +14,9 @@ public class Car {
 		this.timeParking = s;
 	}
 	public void CarPrint() {
-		System.out.println("The " + Make + " " + Model + " has checked out in " + timeParking + " minutes");
+		double price = Integer.parseInt(timeParking);
+		price = price * 0.05;
+		System.out.println("The " + Make + " " + Model + " has parked for a total of " + timeParking + " minutes.");
+		System.out.println("The " + Make + " " + Model + " check out total is $" + price + ".");
 	}
 }
