@@ -1,2 +1,7 @@
 Ford Taurus 20
 Chevy Corvette 30
+Chevy Tahoe 15
+Toyota Tercel 100
+Ferrari LaFerrari 10
+McLaren 720s 100
+Ford F250 20
