@@ -11,7 +11,7 @@ public class Car {
 	public void CarModel(String s) {//function to attach car model
 		this.Model = s;
 	}
-	public void CarTime(String s) {//function to attach time stayed
+	public void CarTime(String s) {//function to attach time staying
 		this.timeParking = s;
 	}
 	public void cParked() {//keeps the individual status of car, so in this case parked = 1
@@ -25,12 +25,12 @@ public class Car {
 		double price = Integer.parseInt(timeParking);//switch from string to double
 		price = price * 0.05;//calculates price of stay, rate is 5 cents a minute
 		if (isPark == 1) {//if car is successfully parked
-			System.out.println("The " + Make + " " + Model + " has parked for a total of " + timeParking + " minutes.");
+			System.out.println("The " + Make + " " + Model + " is parking for a total of " + timeParking + " minutes.");
 			System.out.println("The " + Make + " " + Model + " check out total is $" + price + ".");
 			System.out.println();
 		}
 		if (isPark == 2) {//if car is waiting
-			System.out.println("The " + Make + " " + Model + " is waiting for a parking spot to open.");
+			System.out.println("The " + Make + " " + Model + " is still waiting at the entrance gate for a parking spot to open.");
 			System.out.println();
 		}
 	}
