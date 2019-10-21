@@ -32,7 +32,7 @@ public class Parking {
 		int waitline = 0; //cars waiting to park
 		int parked = 0; //cars that have parked
 		try {
-			scanner = new Scanner(new File("C:\\Users\\Ivan\\git\\parking\\Parking\\src\\input.txt"));
+			scanner = new Scanner(new File("C:\\Users\\Ivan\\git\\parking\\Parking\\src\\input.txt"));//to test, add 2-5 between "input" and ".txt"
 		} catch (FileNotFoundException e) {
 			e.printStackTrace();
 		}
