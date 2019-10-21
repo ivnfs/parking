@@ -1,0 +1,8 @@
+Ford Explorer 150
+Ford Mustang 133
+Ford Focus 50
+Ford Fusion 70
+Chevrolet Silverado 100
+Chevrolet Corvette 200
+Chevrolet Tahoe 450
+Chevrolet Camaro 250
