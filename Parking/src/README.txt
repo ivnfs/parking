@@ -1,0 +1,1 @@
+To change the capacity of the parking, edit the integer on line 6 of Parking.java
